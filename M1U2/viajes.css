@@ -1,0 +1,33 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+p{ font-style: italic;}
+h2{
+    display: inline-block;
+    background-color: yellow;
+    font-family: comic;
+}
+#formulario {
+    background-color: aqua;
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid black;
+
+    box-shadow: 16px 10px 2px 7px rgba(0,0,0,0.64);
+-webkit-box-shadow: 16px 10px 2px 7px rgba(0,0,0,0.64);
+-moz-box-shadow: 16px 10px 2px 7px rgba(0,0,0,0.64);
+
+}
+.destacados {
+    color: green;
+}
+#introduccion {
+    border-radius: 82px 82px 82px 82px;
+-webkit-border-radius: 82px 82px 82px 82px;
+-moz-border-radius: 82px 82px 82px 82px;
+border: 11px solid #e14631;
+}
