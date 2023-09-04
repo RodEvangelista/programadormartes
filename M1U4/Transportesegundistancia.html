@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporte Segun Distancia</title>
+</head>
+<body>
+    <script>
+         const num1 = parseInt(prompt('ingrese distancia en metros',''));
+         const num2 = parseInt(prompt('ingrese distancia en metros',''));
+         const num3 = parseInt(prompt('ingrese distancia en metros',''));
+         const num4 = parseInt(prompt('ingrese distancia en metros',''));
+         const num5 = parseInt(prompt('ingrese distancia en metros',''));
+
+         if (num1 >= 0 && num2 <=999) {
+            document.write ('camina')
+         } else if (num2 >= 1000 && num3 <= 2999 ) {
+            document.write ('anda en bici');
+         } else if (num3 >=3000 && num4 <= 9999 ){
+            document.write ('anda en colectivo');
+         } else if (num4 >= 10000 && num5 <= 100000 ){
+            document.write ('anda en auto');
+         }else if (num5 >= 100000) {
+            document.write ('anda en avion')
+         }
+
+         
+
+    </script>
+   
+    
+</body>
+</html>
+
+

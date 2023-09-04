@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Buscando el numero mas grande</title>
+</head>
+
+<body>
+	<script>
+		let x = 1;
+        let nombre = (prompt('Ingrese nombre',''))
+		const cuantos = 5;
+		let numeromasgrande = Number.NEGATIVE_INFINITY;
+
+        
+
+		while (x <= cuantos) {
+			const valor = parseInt(prompt(`Ingrese el valor ${x}  de ${cuantos}:`, ''));
+		if (valor> numeromasgrande) {
+            numeromasgrande = valor
+
+        }
+        x++;
+        
+		}
+		document.write(`Buenos dias ${nombre}, el numero mas grande es ${numeromasgrande}<br/>`);
+    	</script>
+</body>
+
+</html>
