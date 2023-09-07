@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Color2.css">
+</head>
+<body class="body">
+    <p>
+        <button id="CambiarRojo" onclick="cambiarColor('rojo')"></button>
+        <button id="CambiarAzul" onclick="cambiarColor('azul')"></button>
+        <button id="CambiarVerde" onclick="cambiarColor('verde')"></button>
+    </p>
+
+    <script>
+        const body = document.querySelector('body');
+
+        function cambiarColor(color) {
+            body.classList.remove('rojo', 'azul', 'verde');
+            body.classList.add(color);
+        }
+    </script>
+</body>
+</html>
