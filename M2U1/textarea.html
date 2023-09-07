@@ -7,20 +7,14 @@
 </head>
 <body>
     
-    <textarea name="Descripcion" id="Descripcion" cols="30" rows="10"></textarea>
-    <p id="charNum">characters remaining</p>
+    <textarea name="Descripcion" id="Descripcion" cols="30" rows="10" onkeyup="countChars(this)"></textarea>
+    <p id="charNum">caracteres</p>
    <p> <button id="submt">Submmit</button>
     <button id="delete">Delete</button></p>
 
 
     <script>function countChars(obj){
-        var maxLength = 20;
-        var strLength = obj.value.length;
-        
-        if (strLength > maxLength){
-            document.getElementById("charNum").innerHTML = '<span style="color: red;">'+strLength+' out of '+maxLength+' characters</span>';
-        }else{
-            document.getElementById("charNum").innerHTML = strLength+' out of '+maxLength+' characters';
-        }}</script>
+        document.getElementById("charNum").innerHTML = obj.value.length+' characters';
+    }</script>
 </body>
 </html>
