@@ -1,8 +1,21 @@
 
+button {
+    width: 100x;
+    height: 100px;
+       
+}
+
+.CambiarRojo { background-color: red;
+}
+.CambiarAzul { background-color: blue;
+}
+.CambiarVerde {background-color: green;
+}
 
 .rojo {
     background-color: red;
 }
+
 .azul {
     background-color: blue;
 }
