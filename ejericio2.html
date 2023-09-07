@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="ejercicio2.css">
 </head>
 <body class="body">
-    <button id="CambiarRojo">Cambiar a color rojo</button>
-    <button id="CambiarAzul"> Cambiar a color azul</button>
-    <button id="CambiarVerde">Cambiar a color verde</button>
-
+  <P>  <button id="CambiarRojo"></button>
+    <button id="CambiarAzul"></button>
+    <button id="CambiarVerde"></button>
+</P>
 
 
 </body>
@@ -23,14 +23,17 @@
 
     rojo.addEventListener('click' , function() {
         body.classList.add('rojo');
+        body.classList.remove('azul' ,'verde')
     });
 
     azul.addEventListener('click' , function(){
         body.classList.add('azul');
+        body.classList.remove('rojo' ,'verde')
     });
 
     verde.addEventListener('click' , function(){
         body.classList.add('verde');
+        body.classList.remove('rojo' ,'azul')
     });
 
 </script>

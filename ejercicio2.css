@@ -1,15 +1,15 @@
 
 button {
-    width: 100x;
+    width: 100px;
     height: 100px;
-       
+    border: none;
 }
 
-.CambiarRojo { background-color: red;
+#CambiarRojo { background-color: red;
 }
-.CambiarAzul { background-color: blue;
+#CambiarAzul { background-color: blue;
 }
-.CambiarVerde {background-color: green;
+#CambiarVerde {background-color: green;
 }
 
 .rojo {
