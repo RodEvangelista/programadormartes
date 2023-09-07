@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio1.1.css">
+</head>
+<body class="body">
+    <button id="CambiarRojo">Cambiar a color rojo</button>
+    <button id="CambiarAzul"> Cambiar a color azul</button>
+    <button id="CambiarVerde">Cambiar a color verde</button>
+
+<script>
+    const body = document.querySelector ('body');
+    const rojo = document.getElementById('CambiarRojo');
+    const azul = document.getElementById('CambiarAzul');
+    const verde = document.getElementById('CambiarVerde')
+
+    rojo.addEventListener('click' , function() {
+        body.classList.add('rojo');
+    });
+
+    azul.addEventListener('click' , function(){
+        body.classList.add('azul');
+    });
+
+    verde.addEventListener('click' , function(){
+        body.classList.add('verde');
+    });
+
+</script>
+
+</body>
+</html>
