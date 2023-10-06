@@ -1,0 +1,34 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.novedades {
+    background-color: rgb(29, 181, 232);
+}
+
+.conocenos {
+    background-color: grey;
+}
+.conocenos ( h2 font-size: small;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    )  
+
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.contenedor {
+    background-image: url(../../Imagenes/flologo2.jpg);
+    background-size: contain;
+    height: 300px;
+    min-height: 300px;
+    width: auto;
+    
+}
+.carrusel {
+    align-items: center;
+}

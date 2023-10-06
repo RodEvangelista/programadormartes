@@ -1,0 +1,18 @@
+.body {
+    background-image: url(avion);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+<style>
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+.nosotros {
+    background-color: grey;
+}
+
